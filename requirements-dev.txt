@@ -1,6 +1,0 @@
-scrapy
-requests
-types-requests
-lxml
-lxml-stubs
-tqdm

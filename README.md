@@ -1,39 +1,26 @@
-# Emoji Extension
+# Kaomoji Extension ╰( ◕ ᗜ ◕ )╯
 
 <table>
   <tr>
     <td><img src="screenshots/search.png"></td>
-    <td><img src="screenshots/shortcode-search.png"></td>
+    <td><img src="screenshots/search2.png"></td>
   </tr>
 </table>
 
-## Update emoji data
+## Update kaomoji data
 
-Install dependencies
-
-```bash
-python3 -m venv --system-site-packages .venv
-source .venv/bin/activate
-pip install -r requirements-dev.txt
-```
-
-Run the script to update emoji data
-
-```bash
-./scrape-emojis.sh
-```
+To update Kaomoji data you need to replace the kaomojis.json file with an updated JSON that has the same structure.
+Run the sqlthingy.py file after doing that and you should have a brand-new kaomojis.sqlite file!!
 
 ## Features
 
-- Supports Apple and Noto emoji preview renders
-- Search by emoji name, *or* by shortcode by beginning the search with `:`
-- Support for multiple skin tones via settings
+- Searching for Kaomojis and copying them ＼(＾▽＾)／
 
 ### Settings
 
-![](screenshots/preferences.png)
+  ![](screenshots/preferences.png)
 
-## Credits
+## Credits (◕‿◕)♡
 
-- [emojibase.dev](https://emojibase.dev/) for emoji shortcode data :heart:
-- [noto-emoji](https://github.com/googlefonts/noto-emoji) for emoji styles :heart:.
+- [ulauncher-emoji](https://github.com/Ulauncher/ulauncher-emoji) by [Aleksandr Gornostal](https://github.com/gornostal) for the base code (like 99%) :heart:
+- [FlowLauncher Kaomoji Plugin](https://github.com/mawiseman/Flow.Launcher.Plugin.Kaomoji/blob/main/Flow.Launcher.Plugin.Kaomoji/Assets/kaomoji.json) by [mawiseman](https://github.com/mawiseman) for kaomoji data :heart:
