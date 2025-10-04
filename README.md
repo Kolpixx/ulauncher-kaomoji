@@ -9,8 +9,8 @@
 
 ## Update kaomoji data
 
-To update Kaomoji data you need to replace the kaomojis.json file with an updated JSON that has the same structure.
-Run the sqlthingy.py file after doing that and you should have a brand-new kaomojis.sqlite file!!
+To update Kaomoji data you need to replace the `kaomojis.json` file with an updated JSON that has the same structure.
+Run the `sqlthingy.py` file after doing that and you should have a brand-new `kaomojis.sqlite` file!!
 
 ## Features
 
