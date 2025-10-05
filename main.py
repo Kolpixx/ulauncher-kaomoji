@@ -106,10 +106,11 @@ def search(event, extension, search_term=None, offset=0):
 
         icon = extension_icon
         name = row["kaomoji"].capitalize()
+        keywords = row["keywords"]
 
         items.append(
             ExtensionResultItem(
-                icon=icon, name=name, on_enter=CopyToClipboardAction(name)
+                icon=icon, name=name, description=keywords, on_enter=CopyToClipboardAction(name)
             )
         )
 
