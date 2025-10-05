@@ -24,3 +24,7 @@ Run the `sqlthingy.py` file after doing that and you should have a brand-new `ka
 
 - [ulauncher-emoji](https://github.com/Ulauncher/ulauncher-emoji) by [Aleksandr Gornostal](https://github.com/gornostal) for the base code (like 99%) :heart:
 - [FlowLauncher Kaomoji Plugin](https://github.com/mawiseman/Flow.Launcher.Plugin.Kaomoji/blob/main/Flow.Launcher.Plugin.Kaomoji/Assets/kaomoji.json) by [mawiseman](https://github.com/mawiseman) for kaomoji data :heart:
+
+## License
+
+Distributed under the Apache License 2.0. See `LICENSE` for details.
